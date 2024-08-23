@@ -23,15 +23,13 @@ VRChatのログファイルを読み取りラウンド数をカウントして�
 
 当ファイルはWindows11でのみ動作を確認しております。
 
-また、MacOSでは動作しません。
+なおMacOSでは動作しません。
 
-☆MAを利用しています。[ModularAvatar](https://modular-avatar.nadena.dev)
+☆ModularAvatarを利用しています。[ModularAvatar](https://modular-avatar.nadena.dev)
 
-☆OSCを利用しています。
+☆VRChatOSCを利用しています。
 
 カウントはアプリを終了するたびにリセットされます。
-
-ワールド固定は*非同期型*で*HeadBoneに追従*して設置されます。
 
 
 ### 免責事項
