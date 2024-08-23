@@ -42,6 +42,7 @@ VRChatのログファイルを読み取りラウンド数をカウントして�
 2. (ExpressionMenuからOSCを起動)
 3. ワールドに入室後、RoundCounter.exeを起動
 4. ExpressionMenuからRoundPanelControlをONに
+
 [停止]
 1. RoundCounterアプリを閉じれば終了
 2. ExpressionMenuからRoundPanelControlをOFFに
