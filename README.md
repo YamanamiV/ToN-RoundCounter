@@ -3,7 +3,7 @@ This is a unitypackage and app for counting rounds in the VRChat game Terrors of
 ![T](https://github.com/user-attachments/assets/6cb31e9b-92df-416a-ab43-5d360a908c85)
 
 ## ReadMe
-当ツールは「Terrors of Nowhere」 (https://vrchat.com/home/world/wrld_a61cdabe-1218-4287-9ffc-2a4d1414e5bd)
+当ツールは「[Terrors of Nowhere](https://vrchat.com/home/world/wrld_a61cdabe-1218-4287-9ffc-2a4d1414e5bd)」
 にて出現したラウンドをカウントするツールです。
 
 VRChatのログファイルを読み取りラウンド数をカウントしています。
