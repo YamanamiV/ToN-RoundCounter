@@ -3,59 +3,52 @@ This is a unitypackage and app for counting rounds in the VRChat game Terrors of
 ![T](https://github.com/user-attachments/assets/6cb31e9b-92df-416a-ab43-5d360a908c85)
 
 ## ReadMe
-当ツールは「[Terrors of Nowhere](https://vrchat.com/home/world/wrld_a61cdabe-1218-4287-9ffc-2a4d1414e5bd)」
-にて出現したラウンドをカウントするツールです。
+VRChat log files are read to count the number of rounds.
+
+☆This is fan-made and “unofficial”. Distribution may be suspended in some cases.
+
+☆When using this function in Group or Group+, please follow the terms and conditions of the group.
+
+When using this function in Public, Frend, Frend+, etc., please do not disturb others.
 
 
-VRChatのログファイルを読み取りラウンド数をカウントしています。
+### Notes
 
-☆これはファンメイドであり、「「非公式」」なものです。場合によっては配布を停止する可能性があります。
+☆It's using 137 bits of parameters.
 
+☆This file has been tested only on Windows 11 and will not work on MacOS.(Unity2022.3.22f1)
 
-☆当機能をGroup,Group+で利用される際はグループの規約に従ってください。
+☆It uses ModularAvatar.[ModularAvatar](https://modular-avatar.nadena.dev)
 
-当機能をPublic,Frend,Frend+等で利用される際は周りの方の迷惑にならない範囲でご利用ください。
+☆It uses VRChatOSC.
 
-
-### 注意事項
-
-☆パラメーターを137bitも使ってます。ギミックの多いアバターだとすぐに超過してしまうと思います。
-
-☆当ファイルはWindows11でのみ動作を確認しております。MacOSでは動作しません。
-
-Unity2022.3.22f1にて動作を確認しています。2022.3.6f1や2019.4.31f1では動作を保証できません。
-
-☆ModularAvatarを利用しています。[ModularAvatar](https://modular-avatar.nadena.dev)
-
-☆VRChatOSCを利用しています。
-
-カウントはアプリを終了するたびにリセットされます。
+The count is reset each time the application is exited.
 
 
-### 免責事項
+### How to use
+[Run]
+1. After importing unitypackage, introduce Prefab directly under the avatar.
+2. Activate OSC.
+3. After entering the world, start RoundCounter.exe.(日本語を選択してる場合はRoundCounterJP.exe)
+4. Turn on RoundPanelControl from ExpressionMenu.
 
-このツールを使用して発生した問題に関して作者は一切責任を負いません。
+[Stop]
+1. Close the application.
+2. Turn off the RoundPanelControl from the ExpressionMenu.
 
-### 利用方法
-[起動]
-1. unitypackageをインポート後、Prefabをアバター直下に導入
-2. (ExpressionMenuからOSCを起動)
-3. ワールドに入室後、RoundCounter.exeを起動
-4. ExpressionMenuからRoundPanelControlをONに
+If the count is not made...
 
-[停止]
-1. RoundCounterアプリを閉じれば終了
-2. ExpressionMenuからRoundPanelControlをOFFに
+→Are you manipulating the time on the PC itself? [It might work if you delete all the VRChat logs].
 
-カウントがされない場合...
-→未来や過去にタイムトラベルしていませんか？[VRChatのログをすべて削除すれば動作するかもしれません]
-
-→即リスやデリコ焼きを行っていませんか？[ラウンドがうまく読み取れない場合があります]
+→Are you respawning before the teller is out? [round may not read properly].
 
 
 
 
 [1.0.3]
-アバタースケールに伴わずに正しい位置に出るように変更。
-文字とテクスチャの修正。
+Changed to appear in the correct position without accompanying the avatar scale.
+Text and texture corrections.
+[2.0.0]
+Support JPlang
 
+These sentences are translated using a translator.
