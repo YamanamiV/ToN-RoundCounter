@@ -14,7 +14,7 @@ When using this function in Public, Frend, Frend+, etc., please do not disturb o
 
 ### Notes
 
-☆It's using 137 bits of parameters.
+☆It's using 121 bits of parameters.
 
 ☆This file has been tested only on Windows 11 and will not work on MacOS.(Unity2022.3.22f1)
 
