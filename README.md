@@ -38,9 +38,11 @@ The count is reset each time the application is exited.
 
 If the count is not made...
 
+
 →Are you manipulating the time on the PC itself? [It might work if you delete all the VRChat logs].
 
-→Are you respawning before the teller is out? [round may not read properly].
+
+→Are you respawning before the terror is out? [round may not read properly].
 
 
 
