@@ -1,4 +1,4 @@
-# ToN-RoundCounter
+# ToN-RoundCounter[Ver3.0]
 This is a unitypackage and app for counting rounds in the VRChat game Terrors of nowhere.
 ![roundcounter](https://github.com/user-attachments/assets/3583abfa-3fe0-4357-8a45-fb44aee3dcf2)
 
