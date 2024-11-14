@@ -12,6 +12,8 @@ VRChat log files are read to count the number of rounds.
 
 When using this function in Public, Frend, Frend+, etc., please do not disturb others.
 
+## Download
+HERE[https://github.com/YamanamiV/ToN-RoundCounter/releases/tag/v3.1]
 
 ### Notes
 
